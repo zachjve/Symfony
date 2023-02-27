@@ -1,0 +1,12 @@
+{% block form %}
+
+    {{ form_start(form) }}
+
+        {{ form_row(form.firstname) }}
+        {{ form_row(form.lastname) }}
+        {{ form_row(form.email) }}
+        <button type="submit">Go</button>
+
+    {{ form_end(form) }}
+
+{% endblock %}
